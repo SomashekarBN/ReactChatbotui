@@ -1,0 +1,22 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background: #627adc; /* fallback for old browsers */
+
+  background: -webkit-linear-gradient(
+    to left,
+    #f1a6a6,
+    #627adc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #f1a6a6,
+    #627adc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}

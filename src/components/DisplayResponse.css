@@ -1,0 +1,70 @@
+.video_wrap {
+  justify-content: center;
+  display: flex;
+  border: 0.1px solid #ccc;
+  border-radius: 10px;
+  background: rgb(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  height: 150px;
+}
+.video_wrap > img {
+  min-width: 250px;
+}
+.video_cotainer {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 10px;
+  border-radius: 25px;
+  color: #fcfcfc;
+  padding: 10px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.08);
+  max-width: 350px;
+}
+.botmsg_head {
+  padding: 10px;
+  text-transform: capitalize;
+  /* text-decoration: underline; */
+}
+.videoImg {
+  position: relative;
+  height: 150px;
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+}
+.videoDesc {
+  padding: 10px;
+}
+.playIcon {
+  position: absolute;
+  width: fit-content;
+  cursor: pointer;
+}
+._imgvideoblock {
+}
+.msg_link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: 550;
+}
+.msg_link:hover {
+  color: #ccc;
+}
+.msg_footer i {
+  display: inline;
+  float: right;
+  margin: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.msg_footer i:hover {
+  color: #ccc;
+  font-size: 1.9rem;
+}
+.file_box > h4 {
+  padding: 5px;
+}
+.file_box i {
+  text-align: center;
+}
